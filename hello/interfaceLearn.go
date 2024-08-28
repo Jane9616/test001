@@ -79,7 +79,7 @@ func ShapeTest() {
 
 }
 
-func main() {
+func main2() {
 	AnimalTest()
 	PhonesTest()
 	ShapeTest()

@@ -21,7 +21,7 @@ type Books struct {
 	book_id int
 }
 
-func main() {
+func main3() {
 
 	// vari()
 	// operator()
