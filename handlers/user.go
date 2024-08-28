@@ -12,6 +12,8 @@ import (
 var users = map[string]models.User{
 	"1": {ID: "1", Name: "Jane", Email: "Jane@google.com"},
 	"2": {ID: "2", Name: "Shane", Email: "Shane@google.com"},
+	"3": {ID: "3", Name: "Jane", Email: "Jane@google.com"},
+	"4": {ID: "4", Name: "Shane", Email: "Shane@google.com"},
 }
 
 func GetUsers(w http.ResponseWriter, r *http.Request) {
